@@ -1,0 +1,16 @@
+<table>
+<? foreach($persons as $person) { ?>
+    <tr><td>
+        <?= $person['p_login'] 
+            . '[' . $person['p_level'] . ']'
+            . ' - '
+            . (
+                $person['p_race'] == 1 ? 'Орк' :
+                    $person['p_race'] == 2 ? 'Эльф' : 'Человек'
+            )
+            . ' (' . $person['p_name'] . ')'
+            . (!is_null($person['c_id']) ? ': ' . $person['c_title'] : '') ?>
+    </td></tr>
+<? } ?>
+</table>
+

@@ -1,0 +1,201 @@
+BODY
+{
+    FONT-SIZE: x-small;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #f0f3f7
+}
+TABLE
+{
+    FONT-SIZE: x-small;
+    BORDER-TOP-STYLE: none;
+    BORDER-RIGHT-STYLE: none;
+    BORDER-LEFT-STYLE: none;
+    BORDER-BOTTOM-STYLE: none
+}
+INPUT
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid
+}
+.SubMenuSelected
+{
+    FONT-WEIGHT: bold
+}
+.TableHeader
+{
+    BACKGROUND-COLOR: #6699cc
+}
+.Fighter
+{
+    FONT-SIZE: 10pt
+}
+.FighterBold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt
+}
+.Fighter2
+{
+    FONT-SIZE: 8pt
+}
+.BodyStyle1
+{
+    BACKGROUND-COLOR: #f5f5f5
+}
+.BodyStyle2
+{
+    BACKGROUND-COLOR: #eeeeee
+}
+.TableBorder
+{
+    BORDER-COLLAPSE: collapse
+}
+.SubHeader
+{
+    COLOR: white;
+    BACKGROUND-COLOR: #292b4a
+}
+.HiddenText
+{
+    COLOR: #f0f3f7
+}
+A:link
+{
+    COLOR: darkblue
+}
+A:visited
+{
+    COLOR: darkblue
+}
+.ChatNick
+{
+    FONT-WEIGHT: bold
+}
+.ChatNickPvt
+{
+    FONT-WEIGHT: bold;
+    COLOR: #006600
+}
+.ChatMarked
+{
+    FONT-WEIGHT: bold;
+    COLOR: white;
+    BACKGROUND-COLOR: #66cc33
+}
+.ChatMarkedSelf
+{
+    FONT-WEIGHT: bold;
+    COLOR: white;
+    BACKGROUND-COLOR: #669933
+}
+.ChatMarkedPvt
+{
+    FONT-WEIGHT: bold;
+    COLOR: white;
+    BACKGROUND-COLOR: #ff0000
+}
+.ChatMarkedPvtSelf
+{
+    FONT-WEIGHT: bold;
+    COLOR: white;
+    BACKGROUND-COLOR: #990000
+}
+.ChatSystem
+{
+    FONT-WEIGHT: bold;
+    COLOR: darkred;
+    FONT-STYLE: italic
+}
+.Battlelog
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Tahoma
+}
+.BLTD
+{
+    FONT-WEIGHT: bolder;
+    COLOR: #006600
+}
+.BLTS
+{
+    FONT-WEIGHT: bolder;
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #000099
+}
+.BG0
+{
+    FONT-WEIGHT: bolder;
+    COLOR: #0000cc
+}
+.BG1
+{
+    FONT-WEIGHT: bolder;
+    COLOR: #993333
+}
+.BHD
+{
+    FONT-WEIGHT: bolder;
+    COLOR: #0066ff
+}
+.BHC
+{
+    FONT-WEIGHT: bolder;
+    COLOR: #ff0000
+}
+.BattleUserDead
+{
+    FONT-WEIGHT: bolder
+}
+.BLT
+{
+    COLOR: #ff0000
+}
+.Button
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: x-small;
+    BORDER-LEFT: 1px solid;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Arial
+}
+.ShopStuff1
+{
+    BACKGROUND-COLOR: #eeeeee
+}
+.ShopStuff2
+{
+    BACKGROUND-COLOR: #f5f5f5
+}
+.NE
+{
+    COLOR: red
+}
+.RSQ
+{
+    BACKGROUND-COLOR: lightyellow
+}
+
+/*
+     FILE ARCHIVED ON 14:16:50 Jun 22, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:51:11 Jan 15, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.013
+  captures_list: 313.21
+  LoadShardBlock: 177.074 (3)
+  CDXLines.iter: 13.043 (3)
+  PetaboxLoader3.datanode: 189.94 (4)
+  exclusion.robots.policy: 0.183
+  PetaboxLoader3.resolve: 123.772
+  exclusion.robots: 0.196
+  load_resource: 139.299
+  RedisCDXSource: 119.991
+*/
