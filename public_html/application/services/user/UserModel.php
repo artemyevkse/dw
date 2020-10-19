@@ -1,7 +1,24 @@
 <?
 
+
 class UserModel extends Table
 {
+	protected $_table_name = 'persons';
+	
+	protected $_fields = array(
+		'id',
+		'p_login',
+		'p_password',
+		'p_email',
+		'p_name',
+		'p_city',
+		'p_country',
+		'p_race',
+		'p_level',
+		'p_experience',
+		'c_id'
+	);
+
     public function fetchComplexAll()
     {
         $sql = 'SELECT `persons`.*'

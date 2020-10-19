@@ -1,5 +1,6 @@
 <?
 
+
 class View
 {
     public $data = array();
@@ -8,7 +9,7 @@ class View
 
     public $showLayout = true;
     public $showView = true;
-    
+
     //TODO Config Class
     public $viewsPath = 'views';
     public $layoutsPath = 'layouts';
@@ -52,4 +53,14 @@ class View
 
         echo str_replace('{content}', $viewContent, $fileContent);
     }
+
+	public function getParam($name, $default = null)
+	{
+		return key_exists($name, $this->data) ? $this->data[$name] : $default;
+	}
+
+	public function allParams()
+	{
+		return $this->data['params'];
+	}
 }

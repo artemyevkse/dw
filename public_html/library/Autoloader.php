@@ -4,10 +4,10 @@ class Autoloader
 {
     public function __construct()
     {
-        spl_autoload_register(array($this, 'autoload'));
+        spl_autoload_register(array($this, '_autoload'));
     }
 
-    protected function autoload($class)
+    protected function _autoload($class)
     {
         $path = '';
 
